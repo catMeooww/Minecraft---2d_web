@@ -64,41 +64,41 @@ function myKeyDown(e) {
         document.getElementById("largura").innerHTML = block_image_width;
         document.getElementById("altura").innerHTML = block_image_height;
     }
-    if(keyPressed == 77){
+    if(keyPressed == 49){
         newImage("wood.jpg");
-        console.log("m");
+        console.log("1");
     }
-    if(keyPressed == 85){
+    if(keyPressed == 50){
         newImage("Glowstone.png");
-        console.log("u");
+        console.log("2");
     }
-    if(keyPressed == 68){
+    if(keyPressed == 51){
         newImage("grama dark.png");
-        console.log("d");
+        console.log("3");
     }
-    if(keyPressed == 76){
+    if(keyPressed == 52){
         newImage("Grama lateral.jpg");
-        console.log("l");
+        console.log("4");
     }
-    if(keyPressed == 71){
+    if(keyPressed == 53){
         newImage("grama topo.png");
-        console.log("g");
+        console.log("5");
     }
-    if(keyPressed == 82){
+    if(keyPressed == 54){
         newImage("netherrack.jpg");
-        console.log("r");
+        console.log("6");
     }
-    if(keyPressed == 80){
+    if(keyPressed == 55){
         newImage("Pedra Minecraft.jpg");
-        console.log("p");
+        console.log("7");
     }
-    if(keyPressed == 67){
+    if(keyPressed == 56){
         newImage("Tijolos Pedra Minecraft.jpg");
-        console.log("c");
+        console.log("8");
     }
-    if(keyPressed == 84){
+    if(keyPressed == 57){
         newImage("tijolos.jpg");
-        console.log("t");
+        console.log("9");
     }
 
 }
